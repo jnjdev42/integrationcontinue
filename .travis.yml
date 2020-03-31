@@ -1,3 +1,7 @@
+language: node_js
+node_js:
+- node
+cache: npm
 deploy:
   provider: s3
   access_key_id: "glBNdhehu8SlPki0JCcRr1tDzUgPh9CDAcSFSyr3"
@@ -5,3 +9,4 @@ deploy:
     secure: smVT/2cGBzQYDP0e2OLV6v/MitLCXbW7TjHmjAXFyiVaClGh4IqPMXjzkKRON6SeJyo9iIK2PnDgQnQDldl6I1rBSCUy1wAzO4dvr/rGFZciqSPKY1uFLXYF6y+cLel7h6FuLPD56diCNIX7CJwQJvBUMLw/521frlsl2EVIUW36g96e/TGlUc6LffUjFXibZyrBCVqUPWj/Llrr22swG2WBJJCTnDm1oIC5XslnAMnrNCCpL+2jBM0t1V6/nGVtQaFhRXlmv1tlkyn37CiHkbxILvRvPsIf3VYRqLo3uvCvQWSxpeenKYwBoVSFWN4a8bFTXOorGkalhH4tyYZ8oOYrV/yvF+Uh9DI6wMCE7WmGO5ziRlyETagWCEipSNh8MaCGv+7y4dik3R/TuTZ5EXJqofQTTZQnnbxueO7rIj0DEIUuJj/nUOx4DK3p++QpdlZusqaa/wOkUNtVRnTILza80vZUAWT7+AjAaWmxrJuLoN8/X9TxrBmbm+pH53kjVRrkdwClJ3yw2DGwHOm3M4crNwgvQmHtdLXdv3+6x8SvTGtPJ+a7v6TJAmPz11vxhXEhJTkaG29z+JRb0miLVbudWdTz3WLiAyVoeIhNIkMm+iH2YC8dx9/SDgxWSSj+NflSlR1u4nu+rU/OP2s6qofbIBh4w9I3WVRSkgrpTBY=
   bucket: testesi4
   edge: true
+  acl: public_read 
