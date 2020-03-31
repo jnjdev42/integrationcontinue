@@ -1,4 +1,5 @@
 let initialState = {
+    value: 0
 }
 
 const AddReducer = (state = initialState, action) => {
