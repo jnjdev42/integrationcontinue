@@ -9,8 +9,8 @@ script:
 - npm run build
 deploy:
   provider: s3
-  access_key_id: AKIARFZMF5W3GQ6NUB5Z
-  secret_access_key: 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
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
   bucket: testesi4
   local_dir: build
   acl: public_read
