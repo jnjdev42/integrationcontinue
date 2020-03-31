@@ -9,9 +9,8 @@ script:
 - npm run build
 deploy:
   provider: s3
-  access_key_id: "AKIARFZMF5W3MJMN6ULS"
-  secret_access_key:
-    secure: "FUGWn/lEToKfgPIS2rxP8zRRe/feHmAMEkVhag+vpy1tJ24Q9J+NWIS/5rc0NAbXTACNDzqMEpHOznyONxTyIC8L/MHmhfv/x5q9MOcMa6xc440sHkbkI5vtKsD/d6Qp+a1jLXuV9itjSj2F38g7yRwaHxuBnE76s7cBFWwjL6icc1unQUX1VH3nW8hH5693v1NzOLM3eD6Db1rthHez5k8NNbGQrAIHEhvFUojoif85lu377zaINocTKURhIDRw49LGYRXPVdmiL9oAbZZysX1M9ZlxW4tnhwX2wFWAglp282IVAAPA9h3VVTpEjLRyN+GASlEUYU6R/tEIkdQ3cN2IPGY47+JXszXSwR2+gyHC2dqXg+YpKIRkfzZoixYVx2kxY3V+/zdVo9Z26gPhDUyfIz6lVA0ITQDMj7vwItHaYDxxjKibj/YV9YrJ78SUfv8DpvzmYk6FiSP80t2LtDgZ0B5xby/eWZaIP2S/8xRF7P7HDqKlouAgf3kp2Muk+4xkmWOmmOoDeuCOucKeU2YXOpdyNvTDtWjYm42JYAWAa08eqB6j31RBlXS70XnnCj1JjdmZpQEBEBeSnz3zv7RXP5OlZlsBIbWH0zs6xS8MKTLlbXpvMerH2Tz/oUKHDSe84T/UbSE3MepTgRJYEu5RTwTbrDqAMTmp3vDutCY="
+  access_key_id: AKIARFZMF5W3MJMN6ULS
+  secret_access_key: 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
   bucket: testesi4
-  edge: true
-  acl: public_read
+  region: eu-west-3
+  skip_cleanup: true
