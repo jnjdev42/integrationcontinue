@@ -10,7 +10,7 @@ export class App extends Component {
         <p>{this.props.value}</p>
         <button onClick={() => this.props.addOne()}>ADD ONE</button>
         <button onClick={() => this.props.addX(12)}>ADD X</button>
-        <div>Bonjour Jerome</div>
+        <div>Bonjour Jerome !</div>
       </div>
     );
   }
