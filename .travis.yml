@@ -12,4 +12,5 @@ deploy:
   access_key_id: AKIARFZMF5W3GQ6NUB5Z
   secret_access_key: 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
   bucket: testesi4
+  local_dir: build
   acl: public_read
